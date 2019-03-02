@@ -1,0 +1,221 @@
+
+/*header*/
+.view1 {
+   background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+    background-attachment:  fixed;	
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.img-slider{
+
+    width: 100%;
+    height: 566px;
+}
+
+body{
+font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.heading{
+  font-family:  'Alegreya Sans SC', sans-serif;
+}
+.desc{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.carousel-caption{
+  padding-bottom: 250px;
+  font-size: 30px;
+}
+
+.sub-para{
+  font-size: 1.125em;
+  color: #333;
+}
+.bg{
+
+  border:2px solid #1a2b51;
+  background-color: #f1f1f1;
+    padding: 50px;
+
+}
+.black1{
+  color: #333;
+  font-size: 1.2em;
+}
+.span{
+  font-size: 2em;
+  color: red;
+  display: inline;
+}
+.delay1s{
+  animation-delay: 1s;
+}
+.delay2s{
+  animation-delay: 2s;
+}
+
+.background-pattern{
+  background-image: url("../img/pattern.png");
+  
+}
+.caption1{
+
+font-size: 2.3rem;
+font-family: "Alegreya Sans SC", serif;
+font-weight: 700;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+
+}
+.img-girl{
+  position: absolute;
+  bottom: 0;
+}
+.none{
+  display: none;
+}
+.girl-text{
+font-size: 1.75rem;
+    font-style: italic;
+    color: #fff;
+    padding: 2.5rem 1.25rem 1.875rem 1.25rem;
+}
+@media (min-width: 768px)
+{
+  .girl-text{
+    padding-left: 280px;
+  }
+}
+
+
+.text-right
+{
+  text-align: right;
+
+}
+.text-left{
+  text-align: left;
+
+}
+
+.text-main{
+  color:red !important;
+}
+.carousel-control.prev{
+  background:none;
+}
+.carousel-control.next{
+  background:none;
+}
+.contact-head{
+	margin-top: -3rem;
+    background-color: red;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    /* border: none; */
+    border-radius: 0.2rem;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.scroll{
+	cursor: pointer;	
+	transition-delay: 3s: 
+}
+.nav-backColor{
+	background-color: #1976D2;
+}
+.white-background{
+	background-color: #fff !important;
+}
+
+
+.body-content-background{
+	background-color: rgba(247,247,247,1);
+}
+.img-resp{
+	width: 100%;
+	height: 220px;
+}
+.nav-padding{
+     padding: 0px 28px !important;
+
+}
+
+.nav-red{
+  background-color: red;
+}
+
+.text-span{
+ color: red !important;
+}
+.img-vertical{
+  width: 300px;
+  height:300px;
+}
+
+.primary{
+color: red !important;
+}
+.red{
+color: red!important;
+
+}
+
+ .header-adjustment{
+  margin-top: 5rem;
+       }
+        .header-adjustment-galItems{
+margin-top: 7rem;
+        }      
+ .footer-b-color{
+ 
+background-color: #474747;
+color: #fff;
+
+ }
+ .card-event{ 
+   border: 21px solid;
+    /* border-width: 1px; */
+    border-color: #fff;
+
+ }
+
+/*.navbar-nav .nav-link {
+    margin-right: 25px;
+    margin-left: 25px;
+}*/
+
+
+@media (min-width: 1025px) {
+	  .nav-width{
+	   padding: 1.5rem 3rem  !important;
+             }
+             ol > h2 ~ li{
+	          color: #000000;
+	          font-size: .9em;
+	         margin-top: 2.6em;
+ }
+            
+}
+ 	
+@media (min-width: 320px ) and (max-width: 1024px){
+
+
+       .nav-width{
+       	padding: 1.5rem 1rem !important;
+       }
+       ol > h2 ~ li{
+	          color: #000000;
+	          font-size: .7em;
+	         margin-top: 2.9em;
+ }
+ 	}
